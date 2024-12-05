@@ -25,38 +25,38 @@ var (
 	AppVersions = map[ProtocolType]*AppVersion{
 		AndroidPhone: {
 			ApkId:           "com.tencent.mobileqq",
-			AppId:           537220323,
-			SubAppId:        537220323,
+			AppId:           537257414,
+			SubAppId:        537257414,
 			AppKey:          "0S200MNJT807V3GE",
-			SortVersionName: "9.0.56.16830",
-			BuildTime:       1713424357,
-			ApkSign:         []byte{0xA6, 0xB7, 0x45, 0xBF, 0x24, 0xA2, 0xC2, 0x77, 0x52, 0x77, 0x16, 0xF6, 0xF3, 0x6E, 0xB6, 0x8D},
+			SortVersionName: "9.1.20.21395",
+			BuildTime:       1728390173,
+			ApkSign:         "a6b745bf24a2c277527716f6f36eb68d",
 			SdkVersion:      "6.0.0.2560",
-			SSOVersion:      21,
+			SSOVersion:      22,
 			MiscBitmap:      150470524,
-			SubSigmap:       0x10400,
+			SubSigmap:       66560,
 			MainSigMap: WLOGIN_A5 | WLOGIN_RESERVED | WLOGIN_STWEB | WLOGIN_A2 | WLOGIN_ST |
 				WLOGIN_LSKEY | WLOGIN_SKEY | WLOGIN_SIG64 | 1<<16 | WLOGIN_VKEY | WLOGIN_D2 |
 				WLOGIN_SID | WLOGIN_PSKEY | WLOGIN_AQSIG | WLOGIN_LHSIG | WLOGIN_PAYTOKEN, // 16724722
-			QUA:      "V1_AND_SQ_9.0.56_6372_YYB_D",
+			QUA:      "V1_AND_SQ_9.1.20_8198_YYB_D",
 			Protocol: AndroidPhone,
 		},
 		AndroidPad: {
 			ApkId:           "com.tencent.mobileqq",
-			AppId:           537220362,
-			SubAppId:        537220362,
+			AppId:           537257453,
+			SubAppId:        537257453,
 			AppKey:          "0S200MNJT807V3GE",
-			SortVersionName: "9.0.56.16830",
-			BuildTime:       1713424357,
-			ApkSign:         []byte{0xA6, 0xB7, 0x45, 0xBF, 0x24, 0xA2, 0xC2, 0x77, 0x52, 0x77, 0x16, 0xF6, 0xF3, 0x6E, 0xB6, 0x8D},
+			SortVersionName: "9.1.20.21395",
+			BuildTime:       1728390173,
+			ApkSign:         "a6b745bf24a2c277527716f6f36eb68d",
 			SdkVersion:      "6.0.0.2560",
 			SSOVersion:      21,
 			MiscBitmap:      150470524,
-			SubSigmap:       0x10400,
+			SubSigmap:       66560,
 			MainSigMap: WLOGIN_A5 | WLOGIN_RESERVED | WLOGIN_STWEB | WLOGIN_A2 | WLOGIN_ST |
 				WLOGIN_LSKEY | WLOGIN_SKEY | WLOGIN_SIG64 | 1<<16 | WLOGIN_VKEY | WLOGIN_D2 |
 				WLOGIN_SID | WLOGIN_PSKEY | WLOGIN_AQSIG | WLOGIN_LHSIG | WLOGIN_PAYTOKEN, // 16724722
-			QUA:      "V1_AND_SQ_9.0.56_6372_YYB_D",
+			QUA:      "V1_AND_SQ_9.1.20_8198_YYB_D",
 			Protocol: AndroidPad,
 		},
 		AndroidWatch: {
@@ -67,8 +67,8 @@ var (
 			BuildTime:       1559564731,
 			ApkSign:         []byte{0xA6, 0xB7, 0x45, 0xBF, 0x24, 0xA2, 0xC2, 0x77, 0x52, 0x77, 0x16, 0xF6, 0xF3, 0x6E, 0xB6, 0x8D},
 			SdkVersion:      "6.0.0.2498",
-			SSOVersion:      18,
-			MiscBitmap:      16252796,
+			SSOVersion:      22,
+			MiscBitmap:      150470524,
 			SubSigmap:       0x10400,
 			MainSigMap: WLOGIN_A5 | WLOGIN_RESERVED | WLOGIN_STWEB | WLOGIN_A2 | WLOGIN_ST |
 				WLOGIN_LSKEY | WLOGIN_SKEY | WLOGIN_SIG64 | 1<<16 | WLOGIN_VKEY | WLOGIN_D2 |
