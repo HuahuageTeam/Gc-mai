@@ -29,15 +29,14 @@ var (
 			SubAppId:        537257414,
 			AppKey:          "0S200MNJT807V3GE",
 			SortVersionName: "9.1.20.21395",
+			//[166 183 69 191 36 162 194 119 82 119 22 246 243 110 182 141]
 			BuildTime:       1728390173,
-			ApkSign:         "a6b745bf24a2c277527716f6f36eb68d",
+			ApkSign:         []byte{166, 183, 69, 191, 36, 162, 194, 119, 82 119, 22, 246, 243, 110, 182, 141},
 			SdkVersion:      "6.0.0.2560",
 			SSOVersion:      22,
 			MiscBitmap:      150470524,
 			SubSigmap:       66560,
-			MainSigMap: WLOGIN_A5 | WLOGIN_RESERVED | WLOGIN_STWEB | WLOGIN_A2 | WLOGIN_ST |
-				WLOGIN_LSKEY | WLOGIN_SKEY | WLOGIN_SIG64 | 1<<16 | WLOGIN_VKEY | WLOGIN_D2 |
-				WLOGIN_SID | WLOGIN_PSKEY | WLOGIN_AQSIG | WLOGIN_LHSIG | WLOGIN_PAYTOKEN, // 16724722
+			MainSigMap: 	 16724722, // 16724722
 			QUA:      "V1_AND_SQ_9.1.20_8198_YYB_D",
 			Protocol: AndroidPhone,
 		},
@@ -48,14 +47,13 @@ var (
 			AppKey:          "0S200MNJT807V3GE",
 			SortVersionName: "9.1.20.21395",
 			BuildTime:       1728390173,
-			ApkSign:         "a6b745bf24a2c277527716f6f36eb68d",
+			//[166 183 69 191 36 162 194 119 82 119 22 246 243 110 182 141]
+			ApkSign:         []byte{166,183,69,191,36,162,194,119,82,119,22,246,243,110,182,141},
 			SdkVersion:      "6.0.0.2560",
 			SSOVersion:      21,
 			MiscBitmap:      150470524,
 			SubSigmap:       66560,
-			MainSigMap: WLOGIN_A5 | WLOGIN_RESERVED | WLOGIN_STWEB | WLOGIN_A2 | WLOGIN_ST |
-				WLOGIN_LSKEY | WLOGIN_SKEY | WLOGIN_SIG64 | 1<<16 | WLOGIN_VKEY | WLOGIN_D2 |
-				WLOGIN_SID | WLOGIN_PSKEY | WLOGIN_AQSIG | WLOGIN_LHSIG | WLOGIN_PAYTOKEN, // 16724722
+			MainSigMap: 	 16724722, // 16724722
 			QUA:      "V1_AND_SQ_9.1.20_8198_YYB_D",
 			Protocol: AndroidPad,
 		},
